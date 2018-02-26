@@ -1,0 +1,88 @@
+/*-----------------------box and snake----------------------------*/
+body{
+  background-color: #c3cbd8;
+}
+#box{
+    border:1px solid #c3cbd8;
+    margin: 30px auto;
+    width: 1200px;
+    height: 600px;
+    background-color: #588bad;
+    position: relative;
+}
+.snake{
+    background-color: #1a4766;
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    position: absolute;
+}
+/*-------------------------lines----------------------------------------*/
+#vertical-box{
+    overflow: hidden;
+    width: 1200px;
+    position: absolute;
+}
+.vertical{
+    width: 29.5px;
+    border-left:0.5px solid #c3cbd8;
+    float: left;
+    height: 600px;
+}
+.vertical:first-child{
+    border:none;
+}
+#horizontal-box{
+    width: 1200px;
+    position: absolute;
+}
+.horizontal{
+    width:1200px;
+    height: 29.5px;
+    border-bottom: 0.5px solid #c3cbd8;
+}
+/*--------------------------------food---------------------------------------*/
+.food{
+    background-color: #c1cfff;
+    border-radius: 10px;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+}
+
+#game-over{
+  transition: all 10s;
+  text-align: center;
+  margin-top: 100px;
+  font-family: serif;
+  font-size: 120px;
+  font-weight: bold;
+  color: #1a4766;
+}
+/*----------------*/
+.blue-button{
+	width: 200px;
+	height: 40px;
+	border: 1px solid #256d68;
+	margin: 60px auto 130px auto;
+  border-radius: 5px;
+}
+.blue-button a{
+	padding: 11px 0;
+	text-align: center;
+	color: #256d68;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+	display: block;
+}
+.blue-button a:hover{
+	color: white;
+	background: #256d68;
+	transition: all 800ms ease;
+}
+
+a:link,a:visited,a:hover,a:active {
+    color: #00e0d0;
+    text-decoration: none;
+}
