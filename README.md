@@ -1,1 +1,1 @@
-this is a project that I've created when I was a second-year student, it's written functionally (didn't know OOP then), the code is absolutely unreadable and bad structured, but I still am proud that I've written this game when I started learning js, it brought me so much joy then. 
+this is a project that I've created when I was a second-year student, the code is absolutely unreadable and bad structured, but I still am proud that I've written this game when I started learning js, it brought me so much joy then. 
